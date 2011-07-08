@@ -1,5 +1,5 @@
 run lambda { |env| 
-  target = ENV['target_url']
+  target = ENV['TARGET_URL']
   [
     302,
     {'Location' => target, 'Content-type' => 'text/html'},
